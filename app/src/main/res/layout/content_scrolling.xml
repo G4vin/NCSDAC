@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".About"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="FROM EAST-CENTRAL AFRICA DIVISION:
+
+Second church to be established but the nerve center of the goings-on in the Adventist church in Kenya.
+
+Founded in 1937, Nairobi Central Seventh-day Adventist Church is one of the oldest churches in Kenya. Only the church at Karura, founded in 1933 some ten kilometers from Nairobi, is older. Nairobi Central was a part of the Central Kenya Mission, at that time led by W. W. Armstrong. Some of the missionaries at the Kenya Mission Field congregated there.
+
+A Hostel and a Church
+The Nairobi church is informally known as “Maxwell,” a name derived from Maxwell Adventist Academy that was situated on its campus for many years. The school’s founder, Spencer G. Maxwell (older brother of Arthur S. Maxwell), was the superintendent of the East Africa Union (1928-1941). He arrived in Kenya in 1921 and worked tirelessly to establish the Adventist faith in Kenya and also other parts of Africa. He left Kenya in 1942 for Nyasaland (Malawi). In 1941, the East Africa Union Mission was re-organized under the Southern Africa Division severing links with the Northern European Division.1 Maxwell moved the East Africa Union Mission offices from Nakuru to Nairobi in April 1937. Shortly thereafter, he rented a house in a large compound on Crauford Road (later renamed Milimani and now Jakaya Kikwete Road) to serve as a hostel for the children of missionaries attending the Nairobi European School (now Nairobi Primary School).
+
+Throughout the 1930s and 1940s, most Adventist missionaries’ children in East Africa attended the Nairobi European School. Since it did not have boarding facilities, the church arranged for them to stay at the hostel located at Crauford Road, walking distance from the school. Mrs. Pearson, the wife of the secretary of the Kenya Mission Field, Gordon Pearson, was in charge of the hostel.2
+
+A School for Children of Missionaries
+In September 1947, the Maxwell Preparatory School was founded on the Crauford Road property, which was now sufficient to run a small school. The school was meant to provide Adventist education for the children whose parents labored in the mission fields scattered all over East Africa. Beginning in September 1949, regular Sabbath services were held on campus.
+
+Under the Highlands Mission
+In 1956, the Highlands Mission was established by the East Africa Union to expand the work among the Europeans of Kenya.3 It was based in Eldoret where the first church in this area was established by David Sparrow, a settler farmer who was the first Adventist on the Uasin Gishu Plateau.4 He settled there in 1911. The Highlands Mission soon expanded to Nairobi’s Crauford Road and a church for the school and the European community in Nairobi, was established. It became a branch of the Highlands church in Eldoret. D. L. Ringering, who was the head of the Highlands Mission, served as its first pastor and was bordered below by the Delamere Flats which were constructed in 1951. Another church under the Highlands Mission was established at Kitale in 1957. Two Adventist settler farmers, Hendrik W. Kruger and Thuys de Lange—both Afrikaner Boers, acquired a five-acre plot within the township for their church. They set about constructing a modern church using the exact same design as that of Maxwell in Nairobi. Their numbers were low, and as many settlers began to leave Kenya in the last years of colonial rule, they abandoned the church project. The East Africa Union sold the property to the Baptist Church who completed church.5
+
+The Church on the Hill
+In Kenya’s colonial past, the larger area where the new church was situated was known as Nairobi Hill, an area exclusively reserved for European habitation. At the top of the hill was Government House (now State House Nairobi,) the seat of the government. Crauford Road itself linked Nairobi Hill to the city of Nairobi.
+
+The church at Crauford Road mainly served the school community and the European missionaries, most of whom took advantage of Sabbath to visit with their children. African Adventists tended to congregate in the Pumwani Social Hall before moving to Chalmer’s Square (now Shauri Moyo). The separation was not racial, but rather lingual. Educated Africans who did not mind a service in English, were welcome there. Likewise, those Europeans who did not mind a service in Kiswahili, were welcome at Shauri Moyo, which was in Nairobi’s Chalmer’s Square.
+
+The same compound at Chalmer’s Square housed the Central Kenya Field offices established in 1953. Prior to meeting at Shauri Moyo church, Adventists met at the Pumwani Social Hall in the African district. The social hall was so heavily packed that a new church building had to be commissioned. After completion, it was opened in March 1958 and dedicated on the same day as the Maxwell church at Crauford Road.
+
+The Coming of Independence
+Due to its location, most of the attendees at the Maxwell church were middle-class Africans, many of them senior civil servants, professionals, and other prominent Adventists. The services were held in English, the primary congregants being the school community at Maxwell School. Meanwhile, Crauford Road was renamed Milimani Road, and it became a very strategic location close to government offices and commercial establishments as Nairobi expanded.
+
+Maxwell became a transitional church for many people who were new to Nairobi, or those on short stay. Many congregated there first before moving to or forming congregations closer to where they lived. It was, therefore, the mother church of many churches around the city of Nairobi. It naturally became the nerve center of activity in the Adventist Church in Kenya.
+
+In 1989, the East Africa Union relocated its offices from Invergara Grove (now Vanga Road) in Lavington to Milimani Road. They occupied the former facilities of the Maxwell Preparatory School, which had since moved to a new campus on Magadi Road in Ongata Rongai. The Maxwell Preparatory School was renamed the Maxwell Adventist Academy (MAA) and continues to offer an international curriculum mainly for missionary children.
+
+Growth in Membership
+In the 1980s, the Adventist Church began a global evangelistic campaign that saw tremendous growth in the church in Kenya. The “1000 days of Reaping,” which began on September 18, 1982, and ended on June 15, 1985, added over 300,000 members to the Adventist Church.6 The Maxwell church was soon overflowing, and in the late 1980s there was a need to build a larger sanctuary. In 1995, a massive ultra-modern church was completed and renamed Nairobi Central Seventh-day Adventist Church. Membership rose to over 7,000 by the end of 2019, easily becoming one of the largest Adventist churches in the world.
+
+Sources
+
+“Church School in Nairobi.” Southern African Division Outlook, December 1949.
+
+Daily Nation (Nairobi, Kenya), January 9, 1985.
+
+Read, W. E. “Some Changes at the General Conference.” The Advent Survey, October 1, 1941.
+
+Sang, Godfrey K. and Hosea K. Kili. On the Wings of a Sparrow: How the Seventh-day Adventist Church came to Western Kenya. Nairobi: Gapman Publications Ltd., 2017.
+
+Seventh-day Adventist Yearbook. Review and Herald Publishing Association, 1957" />
+
+</androidx.core.widget.NestedScrollView>
