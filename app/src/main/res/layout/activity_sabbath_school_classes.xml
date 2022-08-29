@@ -12,344 +12,327 @@
       android:id="@+id/imageView"
       android:layout_width="199dp"
       android:layout_height="54dp"
-      android:layout_marginTop="8dp"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.462"
+      app:layout_constraintHorizontal_bias="0.485"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.01"
       app:srcCompat="@drawable/sabbath_school_logo" />
 
   <TextView
       android:id="@+id/txt_sabbathschool"
       android:layout_width="363dp"
       android:layout_height="49dp"
-      android:layout_marginTop="68dp"
       android:text="Get a chance to join a sabbath school class, check the details and see which class suits you:"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.541"
+      app:layout_constraintHorizontal_bias="0.458"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.09" />
+
+  <Button
+      android:id="@+id/btn_kinder"
+      android:layout_width="153dp"
+      android:layout_height="52dp"
+      android:text="Kindergaten"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.662"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.303" />
 
   <TextView
-      android:id="@+id/txt_sabbathage"
-      android:layout_width="45dp"
-      android:layout_height="25dp"
-      android:layout_marginTop="132dp"
-      android:text="Age:"
+      android:id="@+id/txt_sabbathkindergaten"
+      android:layout_width="69dp"
+      android:layout_height="30dp"
+      android:text="5 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.043"
+      app:layout_constraintHorizontal_bias="0.198"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.309" />
 
-  <TextView
-      android:id="@+id/txt_sabbathage2"
-      android:layout_width="48dp"
-      android:layout_height="25dp"
-      android:layout_marginTop="132dp"
-      android:text="Age:"
+  <Button
+      android:id="@+id/btn_cradB"
+      android:layout_width="95dp"
+      android:layout_height="56dp"
+      android:text="Cradle Roll B"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.622"
+      app:layout_constraintHorizontal_bias="0.917"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathclass"
-      android:layout_width="50dp"
-      android:layout_height="20dp"
-      android:layout_marginTop="132dp"
-      android:text="Class:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.249"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathclass2"
-      android:layout_width="52dp"
-      android:layout_height="22dp"
-      android:layout_marginTop="132dp"
-      android:text="Class:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.86"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.192" />
 
   <TextView
       android:id="@+id/txt_sabbathcradlea"
       android:layout_width="64dp"
       android:layout_height="41dp"
-      android:layout_marginTop="168dp"
       android:text="Below 2 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.023"
+      app:layout_constraintHorizontal_bias="0.046"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_cradA"
-      android:layout_width="93dp"
-      android:layout_height="51dp"
-      android:layout_marginTop="164dp"
-      android:text="Cradle A"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.283"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_cradB"
-      android:layout_width="99dp"
-      android:layout_height="51dp"
-      android:layout_marginTop="168dp"
-      android:text="Cradle B"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.951"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.189" />
 
   <TextView
       android:id="@+id/txt_sabbathcradleb"
       android:layout_width="54dp"
       android:layout_height="37dp"
-      android:layout_marginTop="168dp"
       android:text="3 to 4 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.616"
+      app:layout_constraintHorizontal_bias="0.596"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathkindergaten"
-      android:layout_width="45dp"
-      android:layout_height="43dp"
-      android:layout_marginTop="216dp"
-      android:text="5 years:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.025"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.193" />
 
   <Button
-      android:id="@+id/btn_kinder"
-      android:layout_width="144dp"
-      android:layout_height="50dp"
-      android:layout_marginTop="224dp"
-      android:text="Kindergaten"
+      android:id="@+id/btn_cradA"
+      android:layout_width="94dp"
+      android:layout_height="57dp"
+      android:text="Cradle Roll A"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.202"
+      app:layout_constraintHorizontal_bias="0.283"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_primA"
-      android:layout_width="107dp"
-      android:layout_height="64dp"
-      android:layout_marginTop="224dp"
-      android:text="Primary A"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.976"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathprima"
-      android:layout_width="54dp"
-      android:layout_height="37dp"
-      android:layout_marginTop="224dp"
-      android:text="6 to 7 years:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.607"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.192" />
 
   <Button
       android:id="@+id/btn_teens"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="372dp"
       android:text="Teens"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.919"
+      app:layout_constraintHorizontal_bias="0.938"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.642" />
 
   <TextView
       android:id="@+id/txt_sabbathteens"
       android:layout_width="54dp"
       android:layout_height="37dp"
-      android:layout_marginTop="372dp"
       android:text="14 to 18 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.616"
+      app:layout_constraintHorizontal_bias="0.661"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_primB"
-      android:layout_width="112dp"
-      android:layout_height="59dp"
-      android:layout_marginTop="292dp"
-      android:text="Primary B"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.274"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathprimb"
-      android:layout_width="54dp"
-      android:layout_height="37dp"
-      android:layout_marginTop="292dp"
-      android:text="8 to 9 years:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.022"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_jr"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="300dp"
-      android:text="Junior"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.925"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/txt_sabbathjr"
-      android:layout_width="54dp"
-      android:layout_height="37dp"
-      android:layout_marginTop="300dp"
-      android:text="10 to 11 years:"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.61"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.632" />
 
   <TextView
       android:id="@+id/txt_sabbathearly"
       android:layout_width="54dp"
       android:layout_height="37dp"
-      android:layout_marginTop="372dp"
       android:text="12 to 13 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintHorizontal_bias="0.022"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.632" />
 
   <Button
-      android:id="@+id/btn_earlyteen"
+      android:id="@+id/btn_earliteen"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="372dp"
       android:text="Earliteens"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.287"
+      app:layout_constraintHorizontal_bias="0.284"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.642" />
 
   <Button
-      android:id="@+id/btn_cq"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="436dp"
-      android:text="Collegiates"
+      android:id="@+id/btn_primA"
+      android:layout_width="107dp"
+      android:layout_height="64dp"
+      android:text="Primary A"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.294"
+      app:layout_constraintHorizontal_bias="0.296"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.424" />
+
+  <Button
+      android:id="@+id/btn_primB"
+      android:layout_width="112dp"
+      android:layout_height="59dp"
+      android:text="Primary B"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.959"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.424" />
 
   <TextView
-      android:id="@+id/txt_sabbathcq"
+      android:id="@+id/txt_sabbathprimb"
       android:layout_width="54dp"
       android:layout_height="37dp"
-      android:layout_marginTop="436dp"
-      android:text="19 to 23 years:"
+      android:text="8 to 9 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintHorizontal_bias="0.633"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.426" />
+
+  <TextView
+      android:id="@+id/txt_sabbathprima"
+      android:layout_width="54dp"
+      android:layout_height="37dp"
+      android:text="6 to 7 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.044"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.426" />
+
+  <Button
+      android:id="@+id/btn_jr"
+      android:layout_width="108dp"
+      android:layout_height="48dp"
+      android:text="Junior"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.702"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.547" />
+
+  <TextView
+      android:id="@+id/txt_sabbathjr"
+      android:layout_width="98dp"
+      android:layout_height="38dp"
+      android:text="10 to 11 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.233"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.546" />
 
   <Button
       android:id="@+id/btn_youth"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="444dp"
       android:text="Youth"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.931"
+      app:layout_constraintHorizontal_bias="0.934"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.748" />
 
   <TextView
       android:id="@+id/txt_sabbathyouth"
       android:layout_width="54dp"
       android:layout_height="37dp"
-      android:layout_marginTop="448dp"
       android:text="23 to 28 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.644"
+      app:layout_constraintHorizontal_bias="0.661"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.736" />
+
+  <Button
+      android:id="@+id/btn_cq"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Collegiates"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.247"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.748" />
+
+  <TextView
+      android:id="@+id/txt_sabbathcq"
+      android:layout_width="54dp"
+      android:layout_height="37dp"
+      android:text="19 to 23 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.022"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.736" />
 
   <Button
       android:id="@+id/btn_young"
       android:layout_width="181dp"
       android:layout_height="55dp"
-      android:layout_marginTop="508dp"
       android:text="Young Professionals"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.795"
+      app:layout_constraintHorizontal_bias="0.8"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.856" />
 
   <TextView
       android:id="@+id/txt_sabbathyoungprof"
       android:layout_width="155dp"
       android:layout_height="28dp"
-      android:layout_marginTop="516dp"
       android:text="(Singles) 28 to 35 years:"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.031"
+      app:layout_constraintHorizontal_bias="0.062"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/btn_adult"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="584dp"
-      android:text="Adult Class"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.098"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.839" />
 
   <Button
       android:id="@+id/btn_bapt"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="584dp"
       android:text="Baptismal Class"
       android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.896"
+      app:layout_constraintHorizontal_bias="0.909"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.96" />
+
+  <Button
+      android:id="@+id/btn_adult"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Adult Class"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.094"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.96" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

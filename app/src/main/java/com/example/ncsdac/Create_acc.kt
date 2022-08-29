@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 
 class Create_acc : AppCompatActivity() {
 
@@ -15,7 +16,9 @@ class Create_acc : AppCompatActivity() {
     lateinit var edt_createpass : EditText
     lateinit var edt_confirmpass : EditText
 
-    var Buttonsave : Button ?= null
+    lateinit var txt_response : TextView
+
+    lateinit var Buttonsave : Button
     var Buttonback : Button ?= null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +26,7 @@ class Create_acc : AppCompatActivity() {
         setContentView(R.layout.activity_create_acc)
 
         Buttonsave = findViewById(R.id.btn_save)
-        Buttonsave!!.setOnClickListener {
+        Buttonsave.setOnClickListener {
             val intent = Intent(this,Get_started::class.java)
             startActivity(intent)
         }

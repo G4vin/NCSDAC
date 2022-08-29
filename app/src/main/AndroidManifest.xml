@@ -13,8 +13,81 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NCSDAC"
         tools:targetApi="31">
+
         <activity
-            android:name=".EarlyTeens"
+            android:name=".Prayer"
+            android:exported="false" />
+        <activity
+            android:name=".TOB"
+            android:exported="false" />
+        <activity
+            android:name=".VBS"
+            android:exported="false" />
+        <activity
+            android:name=".CampMeeting"
+            android:exported="false" />
+        <activity
+            android:name=".MasterGuide"
+            android:exported="false" />
+        <activity
+            android:name=".Ambassador"
+            android:exported="false" />
+        <activity
+            android:name=".Elders"
+            android:exported="false" />
+        <activity
+            android:name=".Deaconess"
+            android:exported="false" />
+        <activity
+            android:name=".Deacons"
+            android:exported="false" />
+        <activity
+            android:name=".WomenMinistry"
+            android:exported="false" />
+        <activity
+            android:name=".FamilyLife"
+            android:exported="false" />
+        <activity
+            android:name=".Adventurers"
+            android:exported="false" />
+        <activity
+            android:name=".Pathfinders"
+            android:exported="false" />
+        <activity
+            android:name=".AMO"
+            android:exported="false" />
+        <activity
+            android:name=".YouthMinistry"
+            android:exported="false" />
+        <activity
+            android:name=".ChildrenMinistry"
+            android:exported="false" />
+        <activity
+            android:name=".Baptismal"
+            android:exported="false" />
+        <activity
+            android:name=".Young_prof"
+            android:exported="false" />
+        <activity
+            android:name=".Youth"
+            android:exported="false" />
+        <activity
+            android:name=".CradleRollB"
+            android:exported="false" />
+        <activity
+            android:name=".CradleRollA"
+            android:exported="false" />
+        <activity
+            android:name=".PrimaryB"
+            android:exported="false" />
+        <activity
+            android:name=".PrimaryA"
+            android:exported="false" />
+        <activity
+            android:name=".Kindergaten"
+            android:exported="false" />
+        <activity
+            android:name=".Earliteens"
             android:exported="false" />
         <activity
             android:name=".Collegiate"
@@ -68,13 +141,20 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

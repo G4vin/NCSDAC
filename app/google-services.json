@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "713865375946",
+    "project_id": "ncsdac-c6fa6",
+    "storage_bucket": "ncsdac-c6fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713865375946:android:43232a0f0ad40c3e3f4433",
+        "android_client_info": {
+          "package_name": "com.example.ncsdac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713865375946-pn60g9b9d8r3loh8nnnsvsm7u9oka9m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdv7tv6Vb2xLBVEjjs7NapXUyhv93IINo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713865375946-pn60g9b9d8r3loh8nnnsvsm7u9oka9m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -14,7 +14,7 @@ class Sabbath_School_Classes : AppCompatActivity() {
     var ButtonPrimA : Button ?= null
     var ButtonPrimB : Button ?= null
     var ButtonJr : Button ?= null
-    var ButtonEarlyteen : Button ?= null
+    var Buttonearliteen : Button ?= null
     var ButtonTeen : Button ?= null
     var ButtonCQ : Button ?= null
     var ButtonYouth : Button ?= null
@@ -27,14 +27,34 @@ class Sabbath_School_Classes : AppCompatActivity() {
         setContentView(R.layout.activity_sabbath_school_classes)
 
         ButtonCradA = findViewById(R.id.btn_cradA)
+        ButtonCradA!!.setOnClickListener {
+            val intent = Intent(this,CradleRollA::class.java)
+            startActivity(intent)
+        }
 
         ButtonCradB = findViewById(R.id.btn_cradB)
+        ButtonCradB!!.setOnClickListener {
+            val intent = Intent(this,CradleRollB::class.java)
+            startActivity(intent)
+        }
 
         ButtonKinder = findViewById(R.id.btn_kinder)
+        ButtonKinder!!.setOnClickListener {
+            val intent = Intent(this,Kindergaten::class.java)
+            startActivity(intent)
+        }
 
         ButtonPrimA = findViewById(R.id.btn_primA)
+        ButtonPrimA!!.setOnClickListener {
+            val intent = Intent(this,PrimaryA::class.java)
+            startActivity(intent)
+        }
 
         ButtonPrimB = findViewById(R.id.btn_primB)
+        ButtonPrimB!!.setOnClickListener {
+            val intent = Intent(this,PrimaryB::class.java)
+            startActivity(intent)
+        }
 
         ButtonJr = findViewById(R.id.btn_jr)
         ButtonJr!!.setOnClickListener {
@@ -42,9 +62,9 @@ class Sabbath_School_Classes : AppCompatActivity() {
             startActivity(intent)
         }
 
-        ButtonEarlyteen = findViewById(R.id.btn_earlyteen)
-        ButtonEarlyteen!!.setOnClickListener {
-            val intent = Intent(this,EarlyTeens::class.java)
+        Buttonearliteen = findViewById(R.id.btn_earliteen)
+        Buttonearliteen!!.setOnClickListener {
+            val intent = Intent(this,Earliteens::class.java)
             startActivity(intent)
         }
 
@@ -61,8 +81,16 @@ class Sabbath_School_Classes : AppCompatActivity() {
         }
 
         ButtonYouth = findViewById(R.id.btn_youth)
+        ButtonYouth!!.setOnClickListener {
+            val intent = Intent(this,Youth::class.java)
+            startActivity(intent)
+        }
 
         ButtonYoungprof = findViewById(R.id.btn_young)
+        ButtonYoungprof!!.setOnClickListener {
+            val intent = Intent(this,Young_prof::class.java)
+            startActivity(intent)
+        }
 
         ButtonAdult = findViewById(R.id.btn_adult)
         ButtonAdult!!.setOnClickListener {
@@ -71,6 +99,10 @@ class Sabbath_School_Classes : AppCompatActivity() {
         }
 
         ButtonBapt = findViewById(R.id.btn_bapt)
+        ButtonBapt!!.setOnClickListener {
+            val intent = Intent(this,Baptismal::class.java)
+            startActivity(intent)
+        }
 
     }
 }

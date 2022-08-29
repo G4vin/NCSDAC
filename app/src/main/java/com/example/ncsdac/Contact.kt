@@ -31,7 +31,7 @@ class Contact : AppCompatActivity() {
         Buttonemail = findViewById(R.id.btn_email)
         Buttonemail.setOnClickListener {
             val emailIntent =
-                Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","gavinochira@gmail.com",null))
+                Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","nairobicentralsda@gmail.com",null))
             emailIntent.putExtra(Intent.EXTRA_SUBJECT,"Subject")
             emailIntent.putExtra(Intent.EXTRA_TEXT,"Body")
             startActivity(Intent.createChooser(emailIntent,"Send email..."))

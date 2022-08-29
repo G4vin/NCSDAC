@@ -4,42 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Junior">
+    tools:context=".TOB">
 
     <TextView
-        android:id="@+id/txt_Junior"
+        android:id="@+id/txt_treasures"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="JUNIOR CLASS"
+        android:text="TREASURES OF THE BIBLE"
+        android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal" />
+        app:layout_constraintVertical_bias="0.058" />
 
     <Button
-        android:id="@+id/btn_jrlesson"
-        android:layout_width="197dp"
-        android:layout_height="82dp"
-        android:text="Junior Powerpoint Lesson"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602" />
-
-    <ImageView
-        android:id="@+id/img_jr"
+        android:id="@+id/btn_tob20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Treasures Of The Bible 2020"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13"
-        app:srcCompat="@drawable/jr" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

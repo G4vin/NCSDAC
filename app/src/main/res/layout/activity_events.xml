@@ -6,4 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".Events">
 
+    <Button
+        android:id="@+id/btn_camp"
+        android:layout_width="142dp"
+        android:layout_height="83dp"
+        android:text="Camp meeting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <Button
+        android:id="@+id/btn_vbs"
+        android:layout_width="102dp"
+        android:layout_height="79dp"
+        android:text="VBS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/btn_treasures"
+        android:layout_width="195dp"
+        android:layout_height="98dp"
+        android:text="Treasures Of the Bible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <Button
+        android:id="@+id/btn_prayer"
+        android:layout_width="219dp"
+        android:layout_height="90dp"
+        android:text="Days And Weeks Of Prayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
 </androidx.constraintlayout.widget.ConstraintLayout>

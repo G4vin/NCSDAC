@@ -4,27 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EarlyTeens">
+    tools:context=".CradleRollA">
 
     <TextView
-        android:id="@+id/txt_Earlyteens"
+        android:id="@+id/txt_CradA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="EARLITEENS CLASS"
+        android:layout_marginTop="64dp"
+        android:text="CRADLE ROLL A"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="161dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="168dp"
-        android:text="Real Time Faith Lesson"
+        android:id="@+id/btn_cradlesson"
+        android:layout_width="159dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="176dp"
+        android:text="Cradle Roll Lesson"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

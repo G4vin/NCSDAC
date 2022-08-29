@@ -6,16 +6,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class EarlyTeens : AppCompatActivity() {
+class Earliteens : AppCompatActivity() {
 
-    lateinit var Buttonearlylesson : Button
+    lateinit var Buttonrealtime : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_early_teens)
+        setContentView(R.layout.activity_earliteens)
 
-        Buttonearlylesson = findViewById(R.id.btn_earlyteen)
-        Buttonearlylesson.setOnClickListener {
+        Buttonrealtime = findViewById(R.id.btn_realtime)
+        Buttonrealtime.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.realtimefaith.net/"))
             startActivity(intent)
         }
