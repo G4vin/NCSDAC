@@ -44,4 +44,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
+    <TextView
+        android:id="@+id/txt_infopathy"
+        android:layout_width="157dp"
+        android:layout_height="215dp"
+        android:textColor="@color/black"
+        android:text="The purpose of the Pathfinder Club is to introduce young people to Jesus Christ. The program will help them develop body, mind and spirit. With these skills, our young people are able to carry on the work of the church and bring others to the feet of Jesus."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,4 +44,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
+    <TextView
+        android:id="@+id/txt_masterinfo"
+        android:layout_width="159dp"
+        android:layout_height="205dp"
+        android:text="The Master Guides are leaders that serve the church in all areas of the Youth Ministry. Its curriculum is designed for youth and adults, ages 16 and older. It prepares the participant for leadership roles with the Adventurer, Pathfinder, and Youth Ministries."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

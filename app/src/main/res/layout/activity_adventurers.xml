@@ -44,4 +44,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txt_infoadventurer"
+        android:layout_width="153dp"
+        android:layout_height="219dp"
+        android:textColor="@color/black"
+        android:text="The Adventurer Club was created to give children an opportunity to belong to an organized peer group. To join, children are invited to participate in various activities which will improve their social skills."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
 </androidx.constraintlayout.widget.ConstraintLayout>

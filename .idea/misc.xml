@@ -47,6 +47,10 @@
         <entry key="..\:/Users/gavin/AndroidStudioProjects/NCSDAC2/app/src/main/res/layout/facebook.xml" value="0.6" />
         <entry key="..\:/Users/gavin/AndroidStudioProjects/NCSDAC2/app/src/main/res/layout/instagram.xml" value="0.4" />
         <entry key="..\:/Users/gavin/AndroidStudioProjects/NCSDAC2/app/src/main/res/layout/youtube.xml" value="0.264" />
+        <entry key="..\:/Users/gavin/OneDrive/Documents/GitHub/NCSDAC/app/src/main/res/layout/activity_adventurers.xml" value="0.25" />
+        <entry key="..\:/Users/gavin/OneDrive/Documents/GitHub/NCSDAC/app/src/main/res/layout/activity_ambassador.xml" value="0.25" />
+        <entry key="..\:/Users/gavin/OneDrive/Documents/GitHub/NCSDAC/app/src/main/res/layout/activity_master_guide.xml" value="0.25" />
+        <entry key="..\:/Users/gavin/OneDrive/Documents/GitHub/NCSDAC/app/src/main/res/layout/activity_pathfinders.xml" value="0.25" />
       </map>
     </option>
   </component>
