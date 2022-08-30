@@ -25,7 +25,7 @@ class Socials : AppCompatActivity() {
 
         Buttonfb = findViewById(R.id.btn_facebook)
         Buttonfb.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/NairobiCentralSDA/"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/169124386525637/"))
             startActivity(intent)
         }
 
